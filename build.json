@@ -1,10 +1,7 @@
 {
-  "plugins": [
-    [
-      "build-plugin-rax-app",
-      {
-        "targets": ["weex"]
-      }
-    ]
-  ]
+  "targets": [
+    "weex"
+  ],
+  "plugins": [],
+  "inlineStyle": true
 }

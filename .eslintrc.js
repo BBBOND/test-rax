@@ -1,3 +1,4 @@
-module.exports = {
-  extends: ['rax']
-};
+const { getESLintConfig } = require('@iceworks/spec');
+
+module.exports = getESLintConfig('rax');
+  
